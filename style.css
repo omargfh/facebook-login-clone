@@ -1,0 +1,167 @@
+body {
+    background-color: #f0f2f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    text-align: center;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    word-break: keep-all;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    max-lines: 2;
+}
+
+p {
+    width: max-content;
+}
+
+input,
+button {
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+input {
+    height: 58px;
+    width: 410px;
+    padding: 5px 20px;
+    border: 2px solid #f0f2f5;
+    font-size: 1.1rem;
+}
+
+input:focus {
+    outline-color: rgba(24, 119, 242, 0.8);
+}
+
+button {
+    height: 58px;
+    border: none;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.row {
+    width: 80%!important;
+}
+
+.justify-mobile-center {
+    -webkit-box-pack: center!important;
+    justify-content: center!important;
+}
+
+.align-mobile-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.align-center-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%!important;
+}
+
+.logo {
+    width: 350px;
+}
+
+.text-module {
+    overflow: hidden;
+    width: 400px;
+}
+
+.login-form {
+    background-color: white;
+    box-shadow: 1px 1px 12px rgba(32, 32, 32, 0.3);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-log-in {
+    width: 410px;
+    margin: 10px;
+    background-color: #1877f2;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-log-in:hover {
+    background-color: #166fe5;
+}
+
+.btn-new {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #42b72a;
+}
+
+.btn-new:hover {
+    background-color: #36a420;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .justify-mobile-center {
+        -webkit-box-pack: unset!important;
+        justify-content: unset!important;
+    }
+    .align-mobile-center {
+        -webkit-box-align: unset!important;
+        -ms-flex-align: unset!important;
+        align-items: unset!important;
+    }
+    .text-module {
+        margin-left: 10px;
+        width: unset!important;
+    }
+    .text-module h2 {
+        text-align: left;
+        margin-left: 20px;
+    }
+    #left-side {
+        margin-top: 75px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+
+/* Set width to make card deck cards 100% width */
+
+@media (max-width: 950px) {}

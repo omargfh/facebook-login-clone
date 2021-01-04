@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <title>Facebook - log in or sign up</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- UI -->
+    <div id="content" class="cntn container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div class="align-center-vertical">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="left-side" class="d-flex flex-column justify-content-center align-mobile-center fixed fixed-left">
+                        <img src="images/logo.svg" alt="Facebook logo" class="logo center">
+                        <div class="text-module">
+                            <h2>Facebook helps you connect and share with the people in your life.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="right-side" class="fixed fixed-right">
+                        <div class="d-flex flex-column align-items-center justify-content-center login-div">
+                            <form class="login-form">
+                                <input id="first-input" type="text" placeholder="Email adress or phone number">
+                                <input type="password" placeholder="Password">
+                                <button type="submit" class="   btn-log-in">Log In</button>
+                                <a href="#">
+                                    <p style="margin: auto;">Forgotten Password?</p>
+                                </a>
+                                <hr>
+                                <button type="button" class=" btn-new">Create New Account</button>
+                            </form>
+                            <p><a href="#"><b style="color: black">Create a Page</b></a> for a celebrity, band or business.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="footer">
+
+    </footer>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('#first-input').focus();
+        });
+    </script>
+</body>
+
+</html>
